@@ -11,6 +11,7 @@ int main(){
     //     }
     // }
     int j, start, end,k;
+    cout<<"Enter two numbers to find the prime numbers within that range";
     cin>>start>>end;
     for(j=start; j<=end; j++){
         for(k=2; k<j; k++){

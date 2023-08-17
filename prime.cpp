@@ -3,7 +3,8 @@ using namespace std;
 
 int main(){
     // int n;
-    
+                                                        //Logic for prime numbers that they will be divisible by 1 and number itself only
+                                                        // so we execute loop from 2 till number-1
     // for(int i=2; i<n; i++){
     //     if(n%i==0){
     //         cout<<"The number is not prime"; 

@@ -1,11 +1,12 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void prime(int a, int b){
     bool flag;
     for(int i=a; i<=b;i++){
         flag=0;
-        for(int j=2; j<i; j++){
+        for(int j=2; j<sqrt(i); j++){
             if(i%j ==0){
                 flag = 1;
                 break;

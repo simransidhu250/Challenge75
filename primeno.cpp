@@ -6,7 +6,7 @@ void prime(int a, int b){
     bool flag;
     for(int i=a; i<=b;i++){
         flag=0;
-        for(int j=2; j<sqrt(i); j++){
+        for(int j=2; j<sqrt(i); j++){ // sqrt improves efficiency
             if(i%j ==0){
                 flag = 1;
                 break;

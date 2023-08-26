@@ -26,5 +26,5 @@ int main(){
     int key = 45;
     int len =  sizeof(arr)/sizeof(arr[0]);
     int res = binary(arr, len, key);
-    cout<"Postition of the key is "<<res;
+    cout<<"Postition of the key is "<<res;
 }

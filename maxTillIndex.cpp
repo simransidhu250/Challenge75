@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int arr[] = {4,8,9,7,2,1,65,25};
-    int n = 4;
+    int n = sizeof(arr)/sizeof(arr[0]);
     int max = INT_MIN;
 
     // Finding max til a particular index
@@ -13,7 +13,8 @@ int main(){
         if(arr[i]>max){
             max = arr[i];
         }
+        cout<<max<<endl;
     }
-    cout<<max;
+
     return 0;
 }
